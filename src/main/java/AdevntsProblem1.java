@@ -1,11 +1,9 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Arrays;
 import java.util.Scanner;
-import java.nio.*;
 
 
-public class Tag5Vormittag {
+public class AdevntsProblem1 {
     public static void main(String[] args) throws FileNotFoundException {
         File file = new File( "/Users/jakobschneider/Desktop/NeueFische/AdventCode/AdventCalender_Day1_input.txt");
         Scanner sc = new Scanner(file);
@@ -14,6 +12,8 @@ public class Tag5Vormittag {
 
         while (sc.hasNextLine()){
             line = sc.nextLine();
+            line = line.replaceAll("zero","0");
+            line = line.replaceAll("null","0");
             line = line.replaceAll("one","1");
             line = line.replaceAll("two","2");
             line = line.replaceAll("three","3");
@@ -23,6 +23,15 @@ public class Tag5Vormittag {
             line = line.replaceAll("seven","7");
             line = line.replaceAll("eight","8");
             line = line.replaceAll("nine","9");
+            line = line.replaceAll("ten","10");
+            line = line.replaceAll("twenty","20");
+            line = line.replaceAll("thirty","30");
+            line = line.replaceAll("fourty","40");
+            line = line.replaceAll("fivtey","50");
+            line = line.replaceAll("sixty","60");
+            line = line.replaceAll("seventy","70");
+            line = line.replaceAll("eighty","80");
+            line = line.replaceAll("ninety","90");
             line = line.replaceAll("\\D+","");
             //System.out.println(Arrays.toString(line.trim().split("")));
             String[] numbers = line.trim().split("");
