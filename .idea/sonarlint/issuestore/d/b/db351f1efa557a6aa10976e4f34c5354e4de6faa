@@ -1,0 +1,50 @@
+
+7
+java:S1220""Move this file to a named package.8Ä–ƒ¨Â1
+g
+java:S2095	"EUse try-with-resources or close this "Scanner" in a "finally" clause.(‘½Îüÿÿÿÿ8Î–ƒ¨Â1
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Á¸¥8Ñ–ƒ¨Â1
+j
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ê£à˜üÿÿÿÿ8Ó–ƒ¨Â1
+e
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.( û¿¦8Ó–ƒ¨Â1
+e
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.( Áì8Ó–ƒ¨Â1
+j
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(˜Ë™“úÿÿÿÿ8Ô–ƒ¨Â1
+d
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Š½‚v8Ô–ƒ¨Â1
+j
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Îâ¡„üÿÿÿÿ8Ô–ƒ¨Â1
+d
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(üÆˆ8Ô–ƒ¨Â1
+j
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(‹ïğúÿÿÿÿ8Ô–ƒ¨Â1
+e
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ˆ½–ş8Õ–ƒ¨Â1
+e
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¦°‡‚8Õ–ƒ¨Â1
+e
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(†Ëåì8Õ–ƒ¨Â1
+j
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(•Œ¸‰şÿÿÿÿ8Õ–ƒ¨Â1
+d
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ƒ’ÿz8Õ–ƒ¨Â1
+e
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(•ß8Ö–ƒ¨Â1
+e
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÈÚ—8Ö–ƒ¨Â1
+e
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ê”·î8Ö–ƒ¨Â1
+j
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Øó–Âøÿÿÿÿ8Ö–ƒ¨Â1
+j
+java:S5361 "HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÏĞÓğşÿÿÿÿ8Ö–ƒ¨Â1
+e
+java:S5361!"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ù´Š”8×–ƒ¨Â1
+j
+java:S5361""HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÆÜØÁÿÿÿÿÿ8äÜƒ¨Â1
+W	java:S125$"<This block of commented-out lines of code should be removed.(É™Ò38×–ƒ¨Â1
+X	java:S125'"<This block of commented-out lines of code should be removed.(ìôğæ8×–ƒ¨Â1
+G	java:S106)"+Replace this use of System.out by a logger.(‚¨Ö§8Ø–ƒ¨Â1

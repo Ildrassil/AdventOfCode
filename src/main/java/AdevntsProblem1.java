@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class AdevntsProblem1 {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File( "/Users/jakobschneider/Desktop/NeueFische/AdventCode/AdventsCalenderTag1_2.txt");
+        File file = new File( "/Users/jakobschneider/Desktop/NeueFische/Projekte/Tag5-Vormittag/src/main/resources/AdventsCalenderTag1_2.txt");
         Scanner sc = new Scanner(file);
         String line = null;
         int sum =  0;
