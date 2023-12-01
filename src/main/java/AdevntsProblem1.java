@@ -5,33 +5,25 @@ import java.util.Scanner;
 
 public class AdevntsProblem1 {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File( "/Users/jakobschneider/Desktop/NeueFische/AdventCode/AdventCalender_Day1_input.txt");
+        File file = new File( "/Users/jakobschneider/Desktop/NeueFische/AdventCode/AdventsCalenderTag1_2.txt");
         Scanner sc = new Scanner(file);
         String line = null;
         int sum =  0;
 
         while (sc.hasNextLine()){
             line = sc.nextLine();
-            line = line.replaceAll("zero","0");
+            line = line.replaceAll("zero","ze0ro");
             line = line.replaceAll("null","0");
-            line = line.replaceAll("one","1");
-            line = line.replaceAll("two","2");
-            line = line.replaceAll("three","3");
-            line = line.replaceAll("four","4");
-            line = line.replaceAll("five","5");
-            line = line.replaceAll("six","6");
-            line = line.replaceAll("seven","7");
-            line = line.replaceAll("eight","8");
-            line = line.replaceAll("nine","9");
-            line = line.replaceAll("ten","10");
-            line = line.replaceAll("twenty","20");
-            line = line.replaceAll("thirty","30");
-            line = line.replaceAll("fourty","40");
-            line = line.replaceAll("fivtey","50");
-            line = line.replaceAll("sixty","60");
-            line = line.replaceAll("seventy","70");
-            line = line.replaceAll("eighty","80");
-            line = line.replaceAll("ninety","90");
+            line = line.replaceAll("one","o1ne");
+            line = line.replaceAll("two","t2wo");
+            line = line.replaceAll("three","th3ree");
+            line = line.replaceAll("four","fo4ur");
+            line = line.replaceAll("five","fi5ve");
+            line = line.replaceAll("six","s6ix");
+            line = line.replaceAll("seven","se7ven");
+            line = line.replaceAll("eight","ei8ght");
+            line = line.replaceAll("nine","ni9ne");
+            line = line.replaceAll("ten","t10en");
             line = line.replaceAll("\\D+","");
             //System.out.println(Arrays.toString(line.trim().split("")));
             String[] numbers = line.trim().split("");
